@@ -1,7 +1,17 @@
 {
-  "name": "navigation",
+  "name": "@dani-isabel/navigation-component",
   "version": "0.1.0",
-  "private": true,
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Daniela Bolivar",
+  "repository": {
+    "url": "git://github.com/dani-isabel/navigation-component.git"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/dani-isabel"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -9,6 +19,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
+    "styled-components": "^5.2.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -34,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-jest": "^26.6.1"
   }
 }
