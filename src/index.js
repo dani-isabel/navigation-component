@@ -2,7 +2,7 @@ import React from 'react';
 import { StyledNavigation } from './Navigation';
 
 const Navigation = props => {
-  <StyledNavigation {...props}/>
+  return <StyledNavigation {...props}/>
 }
 
 export default Navigation;
